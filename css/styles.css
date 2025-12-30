@@ -1,0 +1,384 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ====== HEADER ====== */
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-head {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+
+  display: inline-block;
+  padding: 24px 0;
+  margin-right: 76px;
+}
+.logo .accent {
+  color: #4d5ae5;
+}
+
+.list-item-head {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-contacts {
+  margin-left: auto;
+  font-style: normal;
+}
+
+.header-nav .link-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-nav .link-nav:hover,
+.header-nav .link-nav:focus {
+  color: #404bbf;
+}
+
+.header-contacts .link-address {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contacts .link-address:hover,
+.header-contacts .link-address:focus {
+  color: #404bbf;
+}
+.link-nav {
+  position: relative;
+  display: inline-block;
+  padding: 24px 0;
+}
+
+.link-nav.studio {
+  padding-bottom: 28px;
+}
+.link-nav.studio:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background: #404bbf;
+  border-radius: 2px;
+}
+
+.contacts-item {
+}
+
+/* ====== EFFECTIVE SOLUTION ====== */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.ef-sol-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ef-sol {
+  background-color: #2e2f42;
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.ef-sol-title {
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  font-size: 56px;
+  max-width: 496px;
+  margin: 0 auto;
+  margin: 0 0 48px;
+}
+
+.ef-sol-btn {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  padding: 16px 32px;
+  margin: 0;
+  border-radius: 4px;
+  border: none;
+}
+
+.ef-sol-btn:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
+.ef-sol-btn:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+/* ====== OUR FUTURES ====== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container-text {
+}
+.list-item {
+  display: flex;
+  gap: 24px;
+}
+.section-feature {
+  padding: 120px 0;
+}
+.section-item {
+  max-width: 264px;
+  flex-basis: auto;
+}
+
+.section-subtitle {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.caption-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+}
+
+/* ====== OUR TEAM ====== */
+
+.our-team {
+  background: #f4f4fd;
+  padding: 120px 0;
+}
+.section-title-team {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+
+  margin-bottom: 72px;
+}
+.list-item {
+}
+
+.section-item-team {
+  width: 264px;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-img {
+  display: block;
+  max-width: 100%;
+}
+
+.section-subtitle-team {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+
+  padding-bottom: 8px;
+}
+
+.caption-text-team {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.text-card {
+  padding: 32px 16px;
+}
+
+/* ====== OUR PORTFOLIO ====== */
+.section-portfolio {
+  padding: 120px 0;
+}
+.section-title {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+
+  margin-bottom: 72px;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+
+  background: #fff;
+}
+.container-portfolio {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 1158px;
+  margin: 0 auto;
+}
+.portfolio-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-list-first {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  list-style: none;
+}
+
+.text-portfolio {
+  padding: 32px 16px;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+}
+.section-subtitle-portfolio {
+  margin: 0 0 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.caption-text-portfolio {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer .caption-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  font-size: 16px;
+}
+
+.footer .logo {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  font-size: 18px;
+}
+
+.container .container-footer {
+  box-sizing: border-box;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.caption-text {
+  max-width: 264px;
+}
+
+.footer .logo {
+  padding-bottom: 16px;
+}
