@@ -43,16 +43,20 @@ ol {
 /* ====== HEADER ====== */
 header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .container-head {
   display: flex;
   align-items: center;
 
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -166,11 +170,9 @@ header {
 .ef-sol {
   background-color: #2e2f42;
   padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(/images/people-office1.jpg);
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -304,7 +306,9 @@ header {
   min-width: 0;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16),
+  box-shadow:
+    0 2px 1px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16),
     0 1px 6px rgba(46, 47, 66, 0.08);
   overflow: hidden;
 }
@@ -327,7 +331,7 @@ header {
 
 .section-subtitle-team {
   margin: 0 0 8px;
-  font-size: clamp(16px, 1.6vw, 20px);
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -337,7 +341,7 @@ header {
 
 .caption-text-team {
   margin: 0;
-  font-size: clamp(12px, 1.2vw, 16px);
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -348,17 +352,17 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: clamp(8px, 1.8vw, 24px);
+  gap: 24px;
   margin: 0;
-  padding: 16px 0 32px;
+
   list-style: none;
   width: 100%;
   min-width: 0;
 }
 
 .social-link {
-  width: clamp(28px, 3vw, 40px);
-  height: clamp(28px, 3vw, 40px);
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -402,8 +406,10 @@ header {
 }
 
 .portfolio-item:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .container-portfolio {
   box-sizing: border-box;
